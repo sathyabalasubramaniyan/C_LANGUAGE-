@@ -22,14 +22,17 @@ int main(void)
 //function definition
  void strcatc(char *s,char *t) // accessing the address by pointers
 {
-   int i=-1;
+   int i=0;
   
-   while(s[++i]!='\0');//  incrementing i until s points to  string terminator
-   for(int j=0;t[j]!='\0';j++) // looping over t pointer 
+   while(*(s+i)!='\0')
    {
-     s[i]=t[j]; // assigning the  character which points by t to the end of s ;
+    i++;
+   }//  incrementing i until s points to  string terminator
+   for(int j=0;*(t+j)!='\0';j++) // looping over t pointer 
+   {
+     *(s+i)=*(t+j); // assigning the  character which points by t to the end of s ;
       i++;  //incrementing the i;
    }
-   s[i]='\0';
+   *(s+i)='\0';
 }  
     
