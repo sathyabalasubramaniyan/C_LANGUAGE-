@@ -1,3 +1,5 @@
+//Rewrite the routines day_of_year and month_day with pointers instead of indexing.
+
 #include<stdio.h>
 static char daytab[2][13]={
    { 0,31,28,31,30,31,30,31,31,30,31,30,31},
