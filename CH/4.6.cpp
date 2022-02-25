@@ -1,3 +1,4 @@
+//Add commands for handling variables. (It’s easy to provide twenty-six variables with single-letter names.) Add a variable for the most recently printed value.
 //header files
 #include<stdio.h>
 #include<stdlib.h>
@@ -62,10 +63,10 @@ int main(void)
                          break;
                 case '=': //assign     
                 	   op2=pop(); //pop the variable  example     op2=2.000     op2=3.0000
-					   in=int(op2); //convert double into integer  in=2         in=3
-					  // printf("\nin:%d",in);
-					   arr[in]=pop();//pop the number and assign into the variable arr[2]=10   arr[3]=20
-					 //  printf("\nARR%f",arr[in]);
+			   in=int(op2); //convert double into integer  in=2         in=3
+			   // printf("\nin:%d",in);
+			   arr[in]=pop();//pop the number and assign into the variable arr[2]=10   arr[3]=20
+			   //  printf("\nARR%f",arr[in]);
                 	   break;
                 default :
                 	if(isdigit(s[j]))  //if it is a number
