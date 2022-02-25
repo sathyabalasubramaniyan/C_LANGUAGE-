@@ -1,3 +1,5 @@
+//Rewrite readlines to store lines in an array supplied by main, rather than calling alloc to maintain storage. How much faster is the program?
+// In static memory allocation execution time is faster compared to dynamic execution time 
 #include<stdio.h>
 #include<string.h>
   
