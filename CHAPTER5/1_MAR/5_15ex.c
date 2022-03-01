@@ -199,7 +199,7 @@ for(;tolower(*s1) == tolower(*s2);s1++,s2++)//convert uppercase into lowercase ,
 
 if(*s1 == '\0')
 {            
-return 0
+return 0;
 };
   
 return tolower(*s1) - tolower(*s2);
