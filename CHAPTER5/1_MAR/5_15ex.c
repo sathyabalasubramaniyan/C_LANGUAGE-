@@ -203,20 +203,6 @@ return 0
 };
   
 return tolower(*s1) - tolower(*s2);
-/*    char ch1,ch2;
-    printf("casecmp");
-    for(int i=0;(s1[i]!='\0' &&s2[i]!='\0');i++)
-    {
-    ch1 = s1[i];
-    ch2 =s2[i];
-    printf("\n%s :%c, %s :%c",s1,ch1,s2,ch2);
-    if (ch1 < ch2)
-     return -1;
-    else if (ch1 > ch2)
-     return 1;
-    else
-     return 0;
-    }*/
 }
 
 
