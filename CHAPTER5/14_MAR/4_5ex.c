@@ -100,6 +100,8 @@ printf("stack element %f\t",op1);
 printf("sp:%d \n",sp);
 }
 break;
+case '\0':
+break;
 case 't': //print top element
 op2=val[--sp];
 printf("top element %f",op2);
@@ -111,14 +113,9 @@ if(isdigit(s[j])) //push the positive number
 j= number( s, j);
 break;
 }
-else if (s[j]!='\0')
-{
-printf("error %csathya\n srth",s[j]);
-}
 else
 {
-break;
-}
+  printf("unknown command");
 }
 j++;//increment next character
 }
