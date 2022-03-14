@@ -1,9 +1,12 @@
+//4.5 Add access to library functions like sin, exp, and pow.
+
 //header files
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
 #include<string.h>
 #include<ctype.h>
+
 
 //macros
 #define MAX 100
