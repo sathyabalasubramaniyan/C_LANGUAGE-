@@ -112,9 +112,7 @@ break;
 }
 }
 j++;//increment next character
-// printf(&quot;\nval=%c&quot;,s[j]);
 }
-// printf(&quot;\nressp:%d,%f&quot;,sp,val[0]);
 if(sp==1)//result
 {
 printf("result=%f",val[--sp]);
