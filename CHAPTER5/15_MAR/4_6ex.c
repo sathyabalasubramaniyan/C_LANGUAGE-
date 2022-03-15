@@ -1,3 +1,4 @@
+//Add commands for handling variables. (It’s easy to provide twenty-six variables with single-letter names.)
 //header files
 #include<stdio.h>
 #include<stdlib.h>
